@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Product Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-card">
+        <div class="logo-area">
+            <span class="emoji-logo">🛒</span>
+        </div>
+        <h1>Product Management</h1>
+        <p class="subtitle">Manage, view, and customize your inventory interactively</p>
+        <div class="button-group">
+            <button onclick="showProducts()">View Products</button>
+            <button onclick="showProductTable()">Product Table</button>
+            <button onclick="showUniqueIDs()">Unique IDs</button>
+            <button onclick="showCategories()">Categories</button>
+        </div>
+        <div class="button-group">
+            <button onclick="showSummary()">Summary</button>
+            <button onclick="addProduct()">Add Product</button>
+            <button onclick="deleteProduct()">Delete Product</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="gestion_datos.js"></script>
+</body>
+</html>
