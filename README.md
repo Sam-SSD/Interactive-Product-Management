@@ -16,8 +16,7 @@ Desarrollada con JavaScript, SweetAlert2 y estilos CSS responsivos.
 ---
 
 ## 🖥️ Vista previa
-
-<!-- Agrega aquí una captura de pantalla de tu app si lo deseas -->
+![product](https://github.com/user-attachments/assets/180f6aab-bb97-48b1-8d52-f1ef8d21f423)
 
 ---
 
